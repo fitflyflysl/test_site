@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body{
+    background-image: url("https://wallpapers.com/images/featured/kendrick-0vbzzzxn2u5h55tn.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+#navbarNav{
+    justify-content: end;
+}
+
+.conteudo{
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+    opacity: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1,h2,h3,p{
+    opacity: 300%;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    padding: 7px;
+    text-align: left;
+}
+
+.prg{
+    text-align: center;
+    font-size: 26px;
+    font-family: monospace;
+}
+
+#kendrick{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline 3px rgb(152, 5, 5);
+}
+
+
+@media (max-width: 1080px) {
+
+
+    body{
+        background-image: url("https://w0.peakpx.com/wallpaper/325/47/HD-wallpaper-portrait-display-hip-hop-kendrick-lamar-thumbnail.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    .conteudo{
+        background-color: rgb(255, 231, 231);
+        margin-top: 20px;
+        padding-left: 10px;
+        opacity: 50%;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
